@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="search" content="width=device-width, initial-scale=1">
+  <title>Recherche</title>
+  <link rel="stylesheet" href="Projects.css">
+
+  <script>
+function Function_Filtre() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+function Function_Select() {
+
+	var item;
+
+	item = document.getElementById("ID").innerHTML =  "hello";
+}
+</script>
+
+</head>
+
+
+
+<body>
+
+ <a href="VCard_Santiago" target="_self"><img  src="home.jpg"> </a>
+
+ <input type="text" id="myInput" onkeyup="Function_Filtre()" placeholder="search project..">
+
+
+<ul id="myUL">
+  <li><a href="#" class="header">A</a></li>
+  <li><a id="A1" href="#">Project Architecs</a></li>
+  <li><a id="A2" href="#">Project Abroad Belgium</a></li>
+
+  <li><a href="#" class="header">B</a></li>
+  <li><a id="B1" href="#">Project Bruxelles</a></li>
+  <li><a id="B2" href="#">Project Benelux</a></li>
+
+  <li><a href="#" class="header">C</a></li>
+  <li><a id="C1" href="#">Project Clouding</a></li>
+  <li><a id="C1" href="#">Project Clone in github</a></li>
+
+  <li><a href="#" class="header">E</a></li>
+  <li><a id="D1" href="#">Project E-commerce export</a></li>
+  <li><a id="D2" href="#">Project E-commerce sports</a></li>
+  <li><a id="D3" href="#">Project E-commerce organic shop</a></li>
+
+  
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VCard santiago Astete</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="/img-sys/favicon.ico" /> -->
+        
+        <link rel="stylesheet" href="Shape.css">
+ 
+</head>
+
+<body>
+
+
+<div id="container4">
+    <div id="container3">
+        <div id="container2">
+            <div id="container1">
+
+                <div id="col1" >
+                    <!-- Column one start -->
+                    <img src="santiVCFok_1_.jpg" alt="Santiago" id="img_col_1" > 
+                    <h2 align="center"> Santiago Astete</h2>
+                    <h1 align="center">Developer</h1>
+                    <p><b>Adresse:</b> Rue Saint Georges 38 - 1050 Bruxelles</p>
+                    <p><b>E-mail:</b> sastetec@hotmail.com</p>
+                    <p><b>téléphone:</b> +32 483326577</p>
+                    <a href="404.html">www.WholeSystem.com</a>
+                   <!-- Column one end -->
+                </div>
+
+                <div id="col2" >
+                    <!-- Column two start -->
+
+                    <br>
+                    <a href="404.html" target="_self">
+                    <img  id="img_col_2_4" src="About.jpg"> 
+                    </a>
+                    <br><br>
+                    <img id="img_col_2_4" src="Skills_OK.jpg" alt="Santiago"    > 
+                    <br><br>
+
+                    <img id="img_col_2_4" src="Contact_OK.jpg" alt="Santiago"    > 
+                    <!-- Column two end -->
+                </div>
+
+                <div id="col3">
+                    <!-- Column three start -->
+                    <br>
+                    <a href="Projects.html" class="recherche" > 
+                     <img id="img_col_2_4" src="Projects_OK.jpg" alt="Santiago"> </a>
+                     <br><br>
+                    <img id="img_col_2_4" src="Services_OK.jpg" alt="Santiago">
+                    <br><br>
+                    <img id="img_col_2_4" src="Video_OK.jpg" alt="Santiago">
+                                       
+                    <!-- Column three end -->
+                </div>
+
+                <div id="col4">
+                    <!-- Column four start -->
+                    <br>
+                    <img id="img_col_2_4" src="Resume_OK.jpg" alt="Santiago">
+                    <br>
+                    <br><br><br>                                                                                                                                                                                                                                                                                    
+                    <img id="img_col_2_4" src="achieving-your-goals.jpg">
+                     
+                    <!-- Column four end -->
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+
+</body>
+
+ </html>

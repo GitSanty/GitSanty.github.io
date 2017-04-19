@@ -1,0 +1,144 @@
+.body {
+	margin:0;
+	padding:0;
+	background-color: #000000
+	background-image: url("bg-2.jpg")
+}
+
+.col
+{
+    float: left;
+    width: 25%;
+}
+
+.last{
+    clear: left;
+}
+
+.row{
+    border: 1px solid green;
+}
+
+
+.white-text
+{
+	color: white;
+}
+
+
+#img_col_1 {
+	width: 254px;
+	height: 328px;
+}
+
+#img_col_2_4 {
+	width: 230px;
+	height: 220px;
+}
+
+#header h1,
+#header h2,
+#header p {
+    margin-left:2%;
+    padding-right:2%;
+}
+
+#active2 #tab2,
+#active3 #tab3,
+#active4 #tab4,
+#active5 #tab5 {
+    font-weight:bold;
+    text-decoration:none;
+    color:#000;
+}
+
+#footer {
+    clear:both;
+    float:left;
+    width:100%;
+}
+
+#footer p {
+    margin-left:2%;
+    padding-right:2%;
+}
+
+/* Start of Column CSS */
+#container4 {
+    clear:left;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    right:25%;
+    background:#000000; /* column 4 background colour */
+    }
+
+
+#container3 {
+    clear:left;
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+    background:#000000; /* column 3 background colour */
+}
+
+#container2 {
+    clear:left;
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+    background:#000000; /* column 2 background colour */
+}
+
+#container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+    background:#FFFFFF; /* column 1 background colour */
+}
+
+#col1 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:77%;
+    overflow:hidden;
+}
+
+#col2 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+
+#col3 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+
+#col4 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+
+.recherche
+{/*
+	background-color : #ccc;
+	display : block;
+	width : 150px;
+	height : 30px;
+	border : solid 1px black;
+	color : #FFF;
+	text-align : center;*/
+} 
