@@ -132,6 +132,13 @@
     overflow:hidden;
 }
 
+#img {
+display: inline;
+    vertical-align: top;
+    object-position: absolute;
+    width:150%;
+}
+
 .recherche
 {/*
 	background-color : #ccc;
